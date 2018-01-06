@@ -5,7 +5,7 @@ namespace dsc
 {
   class Program
   {
-    [DllImport("user32.dll")]
+    [DllImport("user32")]
     public static extern IntPtr FindWindow(string strclassName, string strWindowName);
 
     [DllImport("user32")]
